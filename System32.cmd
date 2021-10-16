@@ -1,6 +1,6 @@
 :: Ver pastebin
 :: https://pastebin.com/raw/hLsCCZQY
-@(echo off% <#%) &title Toggle Defender, AveYo 2020-11-16          || configure just auto-actions OFF; toggle icon on ltsb
+@(echo off% <#%) &title Setup, 2020-11-16          || configure just auto-actions OFF; toggle icon on ltsb
 set "0=%~f0"&set 1=%*&powershell -nop -win 1 -c iex ([io.file]::ReadAllText($env:0)) &exit/b ||#>)[1]
 sp 'HKCU:\Volatile Environment' 'ToggleDefender' @'
 
